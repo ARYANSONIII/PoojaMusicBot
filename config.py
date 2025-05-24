@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ARYANSONIII/KnightMusic",
+    "https://github.com/ARYANSONIII/LotusMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -89,13 +89,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/emccoy.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/rmfsy8.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/emccoy.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/rmfsy8.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/emccoy.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/rmfsy8.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/923c1faac33d8c70335dc.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6c66f8b192532fe758e82.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/ebc4dc6357be06e08a3ed.jpg"
